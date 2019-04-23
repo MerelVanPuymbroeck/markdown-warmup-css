@@ -1,0 +1,71 @@
+.Achtergrond {
+  background-image: url("donker.jpg");
+  background-size: cover;
+}
+
+.titels, .tekst, .tabel, .link, .lijst, .afbeelding1, .quote, .titels1{
+  color: white;
+  margin-left: 80px;
+  margin-bottom: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.pro, .contra, .titels1 {
+  text-decoration: underline;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: bold;
+  color: #DAA520;
+}
+
+.tabel {
+  border-style: double;
+  border-spacing: 15px 25px;
+  border-color: #DAA520;
+}
+
+.afbeelding2 {
+  margin-top: 20px;
+  margin-bottom: -50px;
+}
+
+.link {
+  color: #DAA520;
+}
+
+.afbeelding5 {
+  clip-path: circle();
+  margin-left: 200px;
+  margin-bottom:-12%;
+}
+
+.afbeelding6 {
+  clip-path: circle();
+  margin-right:80px;
+  margin-bottom:-12%;
+}
+
+hr {
+   width:50%;
+   height:1px;
+   background: #fff }
+
+.test {
+  width:auto;
+  height: 250px;
+  background-color: #DAA520;
+  -webkit-clip-path: polygon(100% 64%, 0 100%, 100% 100%);
+  clip-path: polygon(100% 64%, 0 100%, 100% 100%);
+}
+
+.test1 {
+  width: auto;
+  height: 250px;
+  background-color: #FFD700;
+  -webkit-clip-path: polygon(0 50%, 0% 100%, 100% 100%);
+  clip-path: polygon(0 50%, 0% 100%, 100% 100%);
+
+
+}
